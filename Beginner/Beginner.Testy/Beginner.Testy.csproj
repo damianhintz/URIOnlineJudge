@@ -55,6 +55,7 @@
     <Compile Include="Problem2028Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Problem2060Tests.cs" />
+    <Compile Include="Problem2234Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\2028\Problem2028.csproj">

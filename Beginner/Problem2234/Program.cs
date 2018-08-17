@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem2234
 {
@@ -10,6 +6,13 @@ namespace Problem2234
     {
         static void Main(string[] args)
         {
+            var line = Console.ReadLine().Split(' ');
+
+            var totalNumberOfHotDogs = int.Parse(line[0]);
+            var totalNumberOfParticipants = int.Parse(line[1]);
+            var averageHotDogs = (double)totalNumberOfHotDogs / totalNumberOfParticipants;
+            
+            Console.WriteLine($"{averageHotDogs:0.00}");
         }
     }
 }
