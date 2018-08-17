@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2028", "2028\2028.csproj", "{42ECC9D9-2E03-4E18-9DB9-0D391765462E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2028", "2028\Problem2028.csproj", "{42ECC9D9-2E03-4E18-9DB9-0D391765462E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2060", "2060\2060.csproj", "{DAB38823-9C7E-41F6-A3A1-FAC86824FE9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2060", "2060\Problem2060.csproj", "{DAB38823-9C7E-41F6-A3A1-FAC86824FE9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beginner.Testy", "Beginner.Testy\Beginner.Testy.csproj", "{3E773CC6-52F7-4D3D-A20E-85C6DBE96603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2234", "Problem2234\Problem2234.csproj", "{BEB265C4-D84D-4BCA-B6C8-2BEDE979044A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +29,15 @@ Global
 		{3E773CC6-52F7-4D3D-A20E-85C6DBE96603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E773CC6-52F7-4D3D-A20E-85C6DBE96603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E773CC6-52F7-4D3D-A20E-85C6DBE96603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB265C4-D84D-4BCA-B6C8-2BEDE979044A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB265C4-D84D-4BCA-B6C8-2BEDE979044A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB265C4-D84D-4BCA-B6C8-2BEDE979044A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB265C4-D84D-4BCA-B6C8-2BEDE979044A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFBCE485-2CA2-41A2-9454-C241A1A34050}
 	EndGlobalSection
 EndGlobal
