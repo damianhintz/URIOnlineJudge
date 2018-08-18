@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2028", "2028\Problem2028.csproj", "{42ECC9D9-2E03-4E18-9DB9-0D391765462E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2028", "Problem2028\Problem2028.csproj", "{42ECC9D9-2E03-4E18-9DB9-0D391765462E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2060", "Problem2060\Problem2060.csproj", "{DAB38823-9C7E-41F6-A3A1-FAC86824FE9D}"
 EndProject
