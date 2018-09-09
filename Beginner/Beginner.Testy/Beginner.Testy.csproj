@@ -57,15 +57,20 @@
     <Compile Include="Problem2060Tests.cs" />
     <Compile Include="Problem2234Tests.cs" />
     <Compile Include="Problem2483Tests.cs" />
+    <Compile Include="Problem2165Tests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\2028\Problem2028.csproj">
+    <ProjectReference Include="..\Problem2028\Problem2028.csproj">
       <Project>{42ecc9d9-2e03-4e18-9db9-0d391765462e}</Project>
       <Name>Problem2028</Name>
     </ProjectReference>
-    <ProjectReference Include="..\2060\Problem2060.csproj">
+    <ProjectReference Include="..\Problem2060\Problem2060.csproj">
       <Project>{dab38823-9c7e-41f6-a3a1-fac86824fe9d}</Project>
       <Name>Problem2060</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Problem2165\Problem2165.csproj">
+      <Project>{a1ef471b-baab-40ca-bc29-7ff46ddafbb9}</Project>
+      <Name>Problem2165</Name>
     </ProjectReference>
     <ProjectReference Include="..\Problem2234\Problem2234.csproj">
       <Project>{beb265c4-d84d-4bca-b6c8-2bede979044a}</Project>
