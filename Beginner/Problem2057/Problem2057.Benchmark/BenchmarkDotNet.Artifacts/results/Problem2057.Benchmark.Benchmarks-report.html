@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Problem2057.Benchmark.Benchmarks-20230404-174752</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19045
+Intel Core i7-8650U CPU 1.90GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET Core SDK=7.0.202
+  [Host]     : .NET Core 7.0.4 (CoreCLR 7.0.423.11508, CoreFX 7.0.423.11508), X64 RyuJIT
+  Job-WMXNSE : .NET Core 7.0.4 (CoreCLR 7.0.423.11508, CoreFX 7.0.423.11508), X64 RyuJIT
+</code></pre>
+<pre><code>RunStrategy=Monitoring  
+</code></pre>
+
+<table>
+<thead><tr><th>     Method</th><th>X</th><th>Y</th><th>Z</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Median</th>
+</tr>
+</thead><tbody><tr><td>GetLocalTime</td><td>0</td><td>1</td><td>-5</td><td>950.0 ns</td><td>534.5 ns</td><td>353.6 ns</td><td>800.0 ns</td>
+</tr><tr><td>GetLocalTimeArray</td><td>0</td><td>1</td><td>-5</td><td>1,410.0 ns</td><td>1,041.2 ns</td><td>688.7 ns</td><td>1,200.0 ns</td>
+</tr><tr><td>GetLocalTime</td><td>0</td><td>1</td><td>5</td><td>1,200.0 ns</td><td>831.1 ns</td><td>549.7 ns</td><td>1,000.0 ns</td>
+</tr><tr><td>GetLocalTimeArray</td><td>0</td><td>1</td><td>5</td><td>1,230.0 ns</td><td>825.2 ns</td><td>545.8 ns</td><td>1,200.0 ns</td>
+</tr><tr><td>GetLocalTime</td><td>0</td><td>12</td><td>-5</td><td>4,240.0 ns</td><td>15,368.0 ns</td><td>10,165.0 ns</td><td>850.0 ns</td>
+</tr><tr><td>GetLocalTimeArray</td><td>0</td><td>12</td><td>-5</td><td>930.0 ns</td><td>478.4 ns</td><td>316.4 ns</td><td>850.0 ns</td>
+</tr><tr><td>GetLocalTime</td><td>0</td><td>12</td><td>5</td><td>1,250.0 ns</td><td>1,191.0 ns</td><td>787.8 ns</td><td>1,050.0 ns</td>
+</tr><tr><td>GetLocalTimeArray</td><td>0</td><td>12</td><td>5</td><td>1,090.0 ns</td><td>832.5 ns</td><td>550.7 ns</td><td>900.0 ns</td>
+</tr><tr><td>GetLocalTime</td><td>23</td><td>1</td><td>-5</td><td>1,130.0 ns</td><td>890.3 ns</td><td>588.9 ns</td><td>1,100.0 ns</td>
+</tr><tr><td>GetLocalTimeArray</td><td>23</td><td>1</td><td>-5</td><td>1,010.0 ns</td><td>480.5 ns</td><td>317.8 ns</td><td>900.0 ns</td>
+</tr><tr><td>GetLocalTime</td><td>23</td><td>1</td><td>5</td><td>800.0 ns</td><td>213.8 ns</td><td>141.4 ns</td><td>750.0 ns</td>
+</tr><tr><td>GetLocalTimeArray</td><td>23</td><td>1</td><td>5</td><td>1,620.0 ns</td><td>1,590.1 ns</td><td>1,051.8 ns</td><td>1,200.0 ns</td>
+</tr><tr><td>GetLocalTime</td><td>23</td><td>12</td><td>-5</td><td>930.0 ns</td><td>349.5 ns</td><td>231.2 ns</td><td>850.0 ns</td>
+</tr><tr><td>GetLocalTimeArray</td><td>23</td><td>12</td><td>-5</td><td>1,080.0 ns</td><td>487.6 ns</td><td>322.5 ns</td><td>1,000.0 ns</td>
+</tr><tr><td>GetLocalTime</td><td>23</td><td>12</td><td>5</td><td>1,180.0 ns</td><td>805.7 ns</td><td>532.9 ns</td><td>1,000.0 ns</td>
+</tr><tr><td>GetLocalTimeArray</td><td>23</td><td>12</td><td>5</td><td>1,030.0 ns</td><td>680.1 ns</td><td>449.8 ns</td><td>850.0 ns</td>
+</tr></tbody></table>
+</body>
+</html>
